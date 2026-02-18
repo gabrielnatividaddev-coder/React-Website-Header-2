@@ -1,0 +1,15 @@
+.aboutouterdiv{
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+}
+.aboutdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.aboutpic {
+  margin-top: 20px;
+  width: 200px;
+}
