@@ -3,6 +3,7 @@
     justify-content: space-around;
     border-bottom: 1px solid #dee2e6;
     align-items: center;
+    height: 60px;
 }
 .fouritems {
     height: 100%;
@@ -34,4 +35,24 @@
     display: flex;
     align-items: center;
     gap: 10px;
+}
+.divideritems {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    gap: 0;
+}
+.itemdivider {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    padding-left: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.itemdivider:hover {
+    background-color: lightgray;
 }
