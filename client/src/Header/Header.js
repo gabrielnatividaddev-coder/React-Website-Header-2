@@ -42,6 +42,7 @@ const Header = () => {
                 <Link to='/about' className='itemdivider' style={{backgroundColor: pathname ==='/about' ? 'lightgray': 'white'}}>About</Link>
                 <Link to='/links' className='itemdivider' style={{backgroundColor: pathname ==='/links' ? 'lightgray': 'white'}}>Links</Link>
                 </Group>
+                <Divider my="sm" />
             </ScrollArea>
           </Drawer>
           </div>
