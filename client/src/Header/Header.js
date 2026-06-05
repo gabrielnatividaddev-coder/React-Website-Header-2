@@ -23,6 +23,7 @@ const Header = () => {
             onClick={toggleDrawer}
             hiddenFrom="sm"
             aria-label="Toggle navigation"
+            mr={'20px'}
           />
           </div>
           <Drawer

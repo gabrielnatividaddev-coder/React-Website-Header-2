@@ -5,6 +5,12 @@
     align-items: center;
     height: 60px;
 }
+
+  @media only screen and (max-width: 768px) {
+    .headermain {
+    justify-content: space-between;
+    }
+  }
 .fouritems {
     height: 100%;
     display: flex;
